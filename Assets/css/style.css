@@ -1,0 +1,204 @@
+:root {
+
+    --bg1: #2D2A2B;
+    --bg2: rgb(42,42,44);
+    --body: rgb(95,86,86);
+    --brand: #F2B03B;
+    --white: rgb(156,154,154,);
+    --p: rgb(161,150,150);
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#banner {
+    background: url(https://img.freepik.com/free-photo/model-demonstrating-earrings-ring_7502-7042.jpg?t=st=1715756438~exp=1715760038~hmac=c4afaa77a5ea4bb0a057bf4fd0ba02d0b12229f9a3b085346cb308d28df7e11e&w=1380);
+    height: 70vh;
+    background-size: cover;
+}
+/* */
+.navbar {
+    background: linear-gradient(to bottom, hsla(60, 1%, 21%, 0.829), rgba(14, 12, 12, 0.884));
+
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand) !important;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+#Services{
+    background-color:cadetblue;
+}
+.icon-box-img {
+    width: 40% !important;
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+#about{
+    background-color:rgb(34, 132, 156);
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+    background-color: var(--bg1);
+}
+
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* parallax effect */
+    background-attachment: fixed;
+    /* parallax effect / to remove to effect set to normal*/
+    background-image: url('https://img.freepik.com/free-photo/model-demonstrating-earrings-ring_7502-7042.jpg?t=st=1715756438~exp=1715760038~hmac=c4afaa77a5ea4bb0a057bf4fd0ba02d0b12229f9a3b085346cb308d28df7e11e&w=1380'); 
+    min-height: 70vh;
+
+}
+
+#reviews {
+    background-color:cadetblue;
+    }
+
+    .testimonials {
+        background-color: var(--bg2);
+        padding: 30px;
+    }
+
+    .testimonials img {
+        width: 65px;
+        border-radius: 100px;
+        height: 65px;
+
+    }
+
+    #reviews a {
+        color: var(--brand);
+    }
+    .faq-section{
+        max-width:800px;
+        margin: auto;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+    .accordion-bottom {
+        background-color: #f5f0f1;
+        border: none;
+        border-bottom:1px solid color(srgb red green blue);
+        border-radius: 0;
+        padding: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(14, 16, 110);
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .accordion-body {
+        border-left: 3px solid var(--brand);
+        padding: 10px 15 px;
+        margin-left: 0;
+        background-color: papayawhip;
+    }
+    .faq-answer p {
+        margin-bottom: 0;
+    }
+    .accordion-button:focus{
+        box-shadow: none;
+    
+    }
+    .accordion-button:not(.collapsed){
+        color:var(--bg1)
+    }
+    
+    /*Hover effect for FAQ Question*/
+    .accordion-button:hover {
+        background-color:cadetblue;
+        color:var(--bg1)
+    
+    
+    }
+    /*Hover effect for FAQ question */
+    .faq-button:after {
+        font-family: "Font Awesome 5 Free";
+        content:"";/*Plus icon*/
+        float:right;
+        font-weight: 900;
+        margin-left:auto
+    }
+    
+    .accordion-button[aria-expanded="false"]::after{
+        content:"";
+    }
+
+     .footer .container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .footer h5 {
+        margin-bottom: 20px;
+    }
+    
+    .footer p {
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width: 768px) {
+        .footer .col-md-3 {
+            margin-bottom: 30px;
+        }
+    }
+    #footer {
+        background-color: lightblue;
+    }
+    
+/* #services
+{
+    background-color: #F2B03B;
+ } */
